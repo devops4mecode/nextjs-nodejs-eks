@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import '../pages/node_modules/bootstrap/dist/css/bootstrap.min.css';
-import { Header } from './Header'
-import { Users } from './Users'
-import { DisplayBoard } from './DisplayBoard'
-import CreateUser from './CreateUser'
-import { getAllUsers, createUser } from '../services/UserService'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+import { Header } from './components/Header'
+import { Users } from './components/Users'
+import { DisplayBoard } from './components/DisplayBoard'
+import CreateUser from './components/CreateUser'
+import { getAllUsers, createUser } from './services/UserService'
 
 class App extends Component {
 
